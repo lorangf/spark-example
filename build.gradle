@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+version = '1.0-SNAPSHOT'
+
+defaultTasks 'build' 
+
+dependencies {
+  compile "org.apache.spark:spark-sql_2.11:2.2.1"	
+}
+
